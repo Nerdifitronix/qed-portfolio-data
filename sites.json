@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "QED Portfolio",
+    "tagline": "Websites & platforms built by the QED Engineering team.",
+    "org": "Quinte Districts / Zaag University",
+    "updated": "2026-09-11"
+  },
+  "sites": [
+    {
+      "id": "qed-exchequer",
+      "title": "QED Exchequer",
+      "subtitle": "Double-entry accounting platform",
+      "url": "https://exchequer.qed.internal",
+      "category": "Platform",
+      "status": "In development",
+      "logo": {
+        "type": "monogram",
+        "text": "EX",
+        "bg": "#01696F",
+        "fg": "#F7F6F2"
+      },
+      "description": "Core ledger and accounting engine. Enforces double-entry invariants, master data, and approval workflows."
+    },
+    {
+      "id": "qed-cheques",
+      "title": "QED Cheques",
+      "subtitle": "Cheque production & payment bridge",
+      "url": "https://cheques.qed.internal",
+      "category": "Platform",
+      "status": "Live",
+      "logo": {
+        "type": "monogram",
+        "text": "CH",
+        "bg": "#1B474D",
+        "fg": "#F7F6F2"
+      },
+      "description": "Generates, prints, and reconciles cheques. Integrates with QED-Exchequer for payment posting."
+    },
+    {
+      "id": "zaag-university",
+      "title": "Zaag University",
+      "subtitle": "Public marketing site",
+      "url": "https://zaag.university",
+      "category": "Marketing",
+      "status": "Live",
+      "logo": {
+        "type": "monogram",
+        "text": "ZU",
+        "bg": "#7A39BB",
+        "fg": "#F7F6F2"
+      },
+      "description": "Institutional site and programs directory for Zaag University."
+    },
+    {
+      "id": "nerdifitronix-git",
+      "title": "Nerdifitronix Git",
+      "subtitle": "On-premises Git service",
+      "url": "https://git.nerdifitronix.internal",
+      "category": "DevInfra",
+      "status": "Planning",
+      "logo": {
+        "type": "monogram",
+        "text": "GT",
+        "bg": "#28251D",
+        "fg": "#F7F6F2"
+      },
+      "description": "Self-hosted Git with centralized identity, NAS-backed storage, and recoverable backups."
+    }
+  ]
+}
